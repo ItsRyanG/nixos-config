@@ -19,6 +19,8 @@
   i18n.defaultLocale = "en_CA.UTF-8";
   
   services.xserver.videoDrivers = [ "modesetting" ];
+
+  services.displayManager.ly.enable = true;
   services.libinput.enable = true;
   services.libinput.touchpad.naturalScrolling = true;
 
