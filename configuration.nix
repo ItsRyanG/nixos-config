@@ -31,6 +31,7 @@
     rofi-wayland nautilus ghostty zen-browser obsidian
     vscode htop btop onepassword lazyvim llm-studio
     fish fontconfig gtk3 gtk4 mononoki wget curl git unzip
+    nodejs google-gemini-cli
   ];
 
   fonts = {
