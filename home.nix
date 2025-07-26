@@ -44,5 +44,5 @@
     theme = Ayu Mirage
   '';
 
-  home.stateVersion = "24.05";
+  home.stateVersion = "25.05";
 }
