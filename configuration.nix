@@ -2,8 +2,7 @@
 {
   imports = [
     ./hardware-configuration.nix
-    # Assuming MacBookPro11,5 - please confirm your model
-    (builtins.fetchTarball "https://github.com/NixOS/nixos-hardware/archive/master.tar.gz")/apple/macbook-pro/11-5
+    nixos-hardware.apple.macbook-pro."11-5"
   ];
 
   boot.loader.systemd-boot.enable = true;
